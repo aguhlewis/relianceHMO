@@ -1,0 +1,89 @@
+{
+    font-family: Helvetica Neue;
+}
+
+body {
+    height: 100vh;
+}
+
+.left-banner {
+    margin: 0;
+    padding: 0;
+    display: block;
+    width: 40%;
+    height: 100vh;
+    overflow: visible;
+    background: #0298C2;
+    float: left;
+    position: relative;
+
+    background: url('./pic.jpg');
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+}
+
+.left-banner-overlay-black {
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    position: absolute;
+}
+
+.left-banner-overlay-white {
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.1);
+    position: absolute;
+}
+
+.login-content {
+    float: right;
+    width: 40%;
+    margin-top: 20em;
+}
+
+.login-content {
+    padding: 10px;
+}
+.login-form input {
+    margin-top: 1em;
+    height: 2em;
+    border-radius: 2px;
+}
+.password-wrapper > input { padding-right: 2em; }
+.password-wrapper > button {
+    float: right;
+    margin-top: -1.5em;
+    margin-right: 1em;
+    padding-left: 10px;
+    background: none;
+    outline: none;
+}
+.login-form input[type=checkbox] {
+    float: left;
+    margin-top: 0.5em;
+    margin-bottom: 0.7em;
+}
+.remember-me {
+    float: left;
+    margin-top: 1.15em;
+    margin-left: 0.3em;
+    font-size: 0.8em;
+}
+.terms {
+    float: left;
+    margin-left: 0.3em;
+    margin-bottom: 1em;
+    font-size: 0.8em;
+}
+.login-form input[type=submit] {
+    margin-top: 2em !important;
+    border-radius: 2px;
+    background: #0298C2;
+    color: white;
+    height: 2.3em;
+}
